@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  background-color: #9494f1;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav,
+aside {
+  background-color: #e8b9b9;
+  padding: 1rem;
+}
+
+main {
+  background-color: #ddd;
+  padding: 1rem;
+  flex: 1;
+}
+.content {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

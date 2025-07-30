@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(53, 48, 48);
+  text-align: center;
+  width: 40%;
+  padding: 30px;
+  max-width: 400px;
+  border-radius: 20px;
+}
+.face {
+  width: 100px;
+  height: 100px;
+  border-radius: 80%;
+  margin-bottom: 20px;
+}
+.name h1 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.ubicacion h3 {
+  color: rgb(242, 233, 55);
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.resumen h4 {
+  color: white;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+.redes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.redes-sociales {
+  color: white;
+  background-color: rgb(64, 67, 67);
+  padding: 15px;
+  border-radius: 10px;
+}

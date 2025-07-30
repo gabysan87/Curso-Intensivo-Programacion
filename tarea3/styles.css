@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  max-width: 400px;
+}
+
+.img-omel img {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  padding: 30px;
+}
+
+.tittle h1 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.tittle p {
+  font-style: italic;
+  margin-bottom: 50px;
+  color: #555;
+}
+.tiempo-prep {
+  background-color: #fff0f8;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.tiempo-prep h2 {
+  color: rgb(74, 50, 96);
+  margin-bottom: 20px;
+}
+
+.descript-receta li {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.descript-receta li span {
+  color: gray;
+}
